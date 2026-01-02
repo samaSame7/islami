@@ -1,4 +1,5 @@
 import '../../ui/screens/main/tabs/quran/sura_dm.dart';
+import 'app_assets.dart';
 
 List<SuraDM> suras = [
   SuraDM(suraIndex: "1", nameAr: "الفاتحه", nameEn: "Al-Fatiha", verses: "7"),
@@ -262,3 +263,31 @@ List<SuraDM> suras = [
   SuraDM(suraIndex: "114", nameAr: "الناس", nameEn: "An-Nas", verses: "6"),
 ];
 List<String> tasbeha = ["سبحان الله", "الحمد لله", "الله أكبر"];
+final List<Map<String, String>> pages = [
+  {
+    "image": AppAssets.introImg1,
+    "title": "Welcome To Islami App",
+    "desc": "",
+  },
+  {
+    "image": AppAssets.introImg2,
+    "title": "Welcome To Islami",
+    "desc": "We Are Very Excited To Have You In Our Community",
+  },
+  {
+    "image": AppAssets.introImg3,
+    "title": "Reading the Quran",
+    "desc": "Read, and your Lord is the Most Generous",
+  },
+  {
+    "image": AppAssets.introImg4,
+    "title": "Bearish",
+    "desc": "Praise the name of your Lord, the Most High",
+  },
+  {
+    "image": AppAssets.introImg5,
+    "title": "Holy Quran Radio",
+    "desc":
+    "You can listen to the Holy Quran Radio through the application for free and easily",
+  },
+];
